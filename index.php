@@ -12,4 +12,3 @@ if(!file_exists("templates/$file.html"))
 else
     require("templates/main.html");
 ?>
-as
