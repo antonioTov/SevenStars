@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/sevenstars.tribalddb.com.ua/webstat"
+AuthUserFile /var/www/ani/data/etc/28313179.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

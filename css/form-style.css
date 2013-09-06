@@ -1,0 +1,275 @@
+/*----------------------------------------------------------------------------*/
+div.checkbox
+{
+   width: 16px;
+   height: 16px;
+   overflow: hidden;
+   display: inline-block;
+   vertical-align: top;
+}
+
+div.checkbox_e0
+{
+   width: 16px;
+   height: 16px;
+   overflow: hidden;
+   background: url('/img/form/checkbox.png') 0 0 no-repeat;
+}
+
+div.checkbox_e1
+{
+   width: 16px;
+   height: 16px;
+   overflow: hidden;
+   background: url('/img/form/checkbox.png') 0 -20px no-repeat;
+}
+
+div.checkbox_d0
+{
+   width: 16px;
+   height: 16px;
+   overflow: hidden;
+   background: url('/img/form/checkbox.png') 0 -40px no-repeat;
+}
+
+div.checkbox_d1
+{
+   width: 16px;
+   height: 16px;
+   overflow: hidden;
+   background: url('/img/form/checkbox.png') 0 -60px no-repeat;
+}
+
+/*----------------------------------------------------------------------------*/
+input.file
+{
+   position: absolute;
+   display: block;
+   font-size: 18px;
+   cursor: pointer;
+}
+
+div.file
+{
+   position: relative;
+   height: 24px;
+   margin: 5px 0 0;
+   overflow: hidden;
+   cursor: pointer;
+}
+
+div.file_icon
+{
+   width: 20px;
+   height: 24px;
+   float: left;
+   background: url('/system/plugins/jquery.form_style_1.0/ico/default.png') center no-repeat;
+}
+
+div.file_name
+{
+   position: absolute;
+   width: 100%;
+   height: 24px;
+   float: left;
+   margin-left: 20px;
+   padding: 0 5px;
+   overflow: hidden;
+   background: url('/img/form/bg_value.png') no-repeat;
+
+   font: 10.5pt/24px 'Lucida Console', sans-serif;
+   color: #d7d7d7;
+   text-align: left;
+}
+
+div.btn_file
+{
+   position: relative;
+   width: 60px;
+   height: 24px;
+   float: right;
+   overflow: hidden;
+   background: url('/img/form/btn_file.png') 0 0 no-repeat;
+}
+
+div.btn_file_hover
+{
+   background: url('/img/form/btn_file.png') 0 -25px no-repeat;
+}
+
+/*----------------------------------------------------------------------------*/
+div.radio
+{
+   width: 16px;
+   height: 16px;
+   display: inline;
+   overflow: hidden;
+}
+
+div.radio_e0
+{
+   width: 16px;
+   height: 16px;
+   overflow: hidden;
+   background: url('/img/form/radio.png') 0 0 no-repeat;
+}
+
+div.radio_e1
+{
+   width: 16px;
+   height: 16px;
+   overflow: hidden;
+   background: url('/img/form/radio.png') 0 -20px no-repeat;
+}
+
+div.radio_d0
+{
+   width: 16px;
+   height: 16px;
+   overflow: hidden;
+   background: url('/img/form/radio.png') 0 -40px no-repeat;
+}
+
+div.radio_d1
+{
+   width: 16px;
+   height: 16px;
+   overflow: hidden;
+   background: url('/img/form/radio.png') 0 -60px no-repeat;
+}
+
+/*----------------------------------------------------------------------------*/
+select
+{
+   display: none;
+   border: 0;
+}
+
+div.select
+{
+   min-height: 25px;
+   margin-bottom: -1px;
+   text-align: left;
+}
+
+div.select_txt
+{
+   position: absolute;
+   width: 100%;
+   height: 25px;
+   float: left;
+   padding: 0 8px;
+   overflow: hidden;
+   background: url('/img/form/bg_select.png') 0 0 no-repeat;
+   
+   text-align: center;
+   color: rgb(131, 131, 131);
+   padding-top: 5px;
+
+}
+
+div.select_txt_hover
+{
+   background-position: 0 -30px;
+}
+
+div.select_btn
+{
+   position: relative;
+   width: 25px;
+   height: 25px;
+   float: right;
+   overflow: hidden;
+   background: url('/img/form/btn_select.png') 0 0 no-repeat;
+}
+
+div.select_btn_hover
+{
+   background-position: 0 -30px;
+}
+
+div.select > div.options
+{
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   display: none;
+   z-index: 900;
+}
+
+div.select > ul.options
+{
+   position: absolute;
+   height: 0;
+   max-height: 100px;
+   display: block;
+   margin: 25px 0 0;
+   padding: 0;
+   overflow: hidden;
+   overflow-y: auto;
+   visibility: hidden;
+   list-style: none;
+
+   border: 1px solid #DDDDDD;
+   border-top: 0;
+   z-index: 1000;
+}
+
+div.select > ul.options > li
+{
+   min-height: 22px;
+   padding: 4px 10px 0;
+   overflow: hidden;
+   background-color: #FFFFFF;
+   color:#838383;
+}
+
+div.select > ul.options > li.selected
+{
+   background-color: #E2F9FF;
+}
+
+div.select > ul.options > li:hover
+{
+   background-color: #E2F9FF;
+}
+
+/*----------------------------------------------------------------------------*/
+select.switch
+{
+   display: none;
+}
+
+div.switch
+{
+   width: 48px;
+   height: 24px;
+   margin: 0;
+   overflow: hidden;
+}
+
+div.switch > div
+{
+   width: 24px;
+   height: 24px;
+   float: left;
+}
+
+div.switch_0
+{
+   background: url('/img/form/switch.png') 0 0 no-repeat;
+}
+
+div.switch_1
+{
+   background: url('/img/form/switch.png') 0 -30px no-repeat;
+}
+
+div.switch_btn
+{
+   cursor: pointer;
+}
+
+/*----------------------------------------------------------------------------*/
