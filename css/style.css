@@ -301,9 +301,8 @@ a
 }
 .btn_cont
 {
-    position: absolute;
-    right: 0;
-    bottom: 1px;
+    float: right;
+    margin-top: -28px;
     width: 348px;
 }
 .btn_inv, .btn_deb
@@ -1328,6 +1327,7 @@ input[type='reset'], input[type='submit'],  input[type='button']
     border: 0;
     font-size: 14px;
     border-right: 1px solid white;
+    width: 132px;
 }
 input[type='reset']:hover
 {
@@ -1370,7 +1370,6 @@ input[type='button']
 div.error
 {
     color: #fc6666;
-    position: absolute;
 }
 input.error
 {
@@ -1771,7 +1770,7 @@ a.save:hover
 
 .mCSB_scrollTools .mCSB_draggerRail 
 {
-    background: rgba(197, 197, 197, 0.4);
+    background: rgb(228, 228, 228);
     width: 4px;
     height: 100%;
     margin: 0 auto;
@@ -1786,13 +1785,17 @@ a.save:hover
     margin: 20px 30px;
     overflow: hidden;
 }
-.filter-nav a
+.filter-nav li
 {
     float: left;
+}
+.filter-nav a
+{
     padding: 5px 10px;
     margin: 10px;
     text-decoration: none;
     font-size: 14px;
+    display: block;
 }
 .filter-nav a:hover, .filter-nav a.selected
 {
@@ -2641,7 +2644,7 @@ padding: 23px;
 }
 .report-cont .rows
 {
-    margin: 10px;
+    margin: 10px 10px 10px 310px;
 }
 .report-cont .rows input[type='text']
 {
@@ -2650,13 +2653,10 @@ padding: 23px;
 .report-cont .rows label
 {
     width: 30px;
-    display: inline-block;
-    float: none;
+    display: block;
 }
 .report-cont form .rows > div
 {
-    display: inline-block;
-    float: none;
     position: relative;
 }
 .report-cont form .rows img 

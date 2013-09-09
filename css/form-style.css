@@ -1,11 +1,13 @@
 /*----------------------------------------------------------------------------*/
 div.checkbox
 {
-   width: 16px;
-   height: 16px;
-   overflow: hidden;
-   display: inline-block;
-   vertical-align: top;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    display: block;
+    vertical-align: top;
+    float: left;
+    margin-right: 3px;
 }
 
 div.checkbox_e0

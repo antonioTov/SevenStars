@@ -2,3 +2,11 @@
 {
     display: none !important;
 }
+form .fields.right .rows.date img
+{
+    right: 2px;
+}
+.mCSB_scrollTools .mCSB_draggerRail
+{
+    background: none;
+}
