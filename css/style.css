@@ -304,6 +304,7 @@ a
     position: absolute;
     right: 0;
     bottom: 1px;
+    overflow: hidden;
 }
 .btn_inv, .btn_deb
 {
@@ -325,7 +326,8 @@ a
     width: 18px;
     border-top: 1px solid white;
     border-right: 1px solid white;
-    
+    display: block;
+
     -moz-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -o-transform: rotate(45deg);
@@ -2633,4 +2635,21 @@ padding: 23px;
 .report-cont  .view-table td 
 {
     border: 1px solid #48c4ee;
+}
+.view-table .detal-view.mod td
+{
+    display: block;
+    padding: 10px 0 0 0 ;
+}
+.view-table .detal-view.mod  .descr
+{
+    width: 450px;
+}
+.view-table .detal-view.mod  .total-summ
+{
+    margin: 0;
+}
+.view-table .detal-view.mod .statistic
+{
+    margin: 40px 130px 0 0;
 }
