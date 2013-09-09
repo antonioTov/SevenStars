@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.0 (build 1.971)
 # update).
 BEGIN_MAP 27
 POS_GENERAL 2007                
-POS_TIME 2694                
-POS_VISITOR 6270                
-POS_DAY 6819                
-POS_DOMAIN 3296                
-POS_LOGIN 3528                
-POS_ROBOT 3683                
-POS_WORMS 3815                
-POS_EMAILSENDER 3946                
-POS_EMAILRECEIVER 4089                
-POS_SESSION 7007                
-POS_SIDER 7170                
-POS_FILETYPES 4224                
-POS_DOWNLOADS 4411                
-POS_OS 4459                
-POS_BROWSER 4538                
-POS_SCREENSIZE 4666                
-POS_UNKNOWNREFERER 4740                
-POS_UNKNOWNREFERERBROWSER 4827                
-POS_ORIGIN 4909                
-POS_SEREFERRALS 5048                
-POS_PAGEREFS 5192                
-POS_SEARCHWORDS 5340                
-POS_KEYWORDS 5492                
-POS_MISC 2358                
-POS_ERRORS 5551                
-POS_CLUSTER 3384                
-POS_SIDER_404 5637                
+POS_TIME 2693                
+POS_VISITOR 6302                
+POS_DAY 6835                
+POS_DOMAIN 3297                
+POS_LOGIN 3530                
+POS_ROBOT 3685                
+POS_WORMS 3817                
+POS_EMAILSENDER 3948                
+POS_EMAILRECEIVER 4091                
+POS_SESSION 7051                
+POS_SIDER 7224                
+POS_FILETYPES 4226                
+POS_DOWNLOADS 4414                
+POS_OS 4462                
+POS_BROWSER 4542                
+POS_SCREENSIZE 4697                
+POS_UNKNOWNREFERER 4771                
+POS_UNKNOWNREFERERBROWSER 4858                
+POS_ORIGIN 4940                
+POS_SEREFERRALS 5080                
+POS_PAGEREFS 5224                
+POS_SEARCHWORDS 5372                
+POS_KEYWORDS 5524                
+POS_MISC 2357                
+POS_ERRORS 5583                
+POS_CLUSTER 3386                
+POS_SIDER_404 5669                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,11 +46,11 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20130905195437 8259 2031410 17261748463414
+LastLine 20130906152902 2973 720453 15489643248564
 FirstTime 20130901081701
-LastTime 20130905195437
-LastUpdate 20130906000325 8259 0 8259 0 0
-TotalVisits 34                  
+LastTime 20130906152902
+LastUpdate 20130907000325 2973 0 2973 0 0
+TotalVisits 36                  
 TotalUnique 10                  
 MonthHostsKnown 0                   
 MonthHostsUnknown 10                  
@@ -79,15 +79,15 @@ BEGIN_TIME 24
 4 0 0 0 0 0 0
 5 0 0 0 0 0 0
 6 2 17 485334 0 0 0
-7 22 312 3445559 0 2 0
-8 59 1001 7396173 0 2 516
-9 42 710 1759782 0 0 0
-10 48 796 1886392 0 0 0
+7 51 919 3674291 0 3 0
+8 97 1620 7627001 0 2 516
+9 80 1334 2004967 0 0 0
+10 96 1796 3704534 0 9 0
 11 49 896 1925466 0 0 0
 12 6 74 3165046 0 1 0
 13 50 717 3359100 0 6 1535
 14 65 1169 2364125 0 2 1027
-15 120 2872 3213653 0 0 0
+15 130 2985 3239718 0 0 0
 16 2 32 1291144 0 0 0
 17 2 32 1304422 0 0 0
 18 2 20 530571 0 0 0
@@ -101,7 +101,7 @@ END_TIME
 # Domain - Pages - Hits - Bandwidth
 # The 10 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 1
-ip 477 8788 33130935
+ip 640 11751 35679887
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -135,12 +135,12 @@ END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 6
-css 514 1205005 0 0
-png 4181 2675397 0 0
-html 276 951602 0 0
-jpg 1575 21864298 0 0
-js 2041 4230266 0 0
-otf 201 2204367 0 0
+css 710 1614565 0 0
+png 5337 2842251 0 0
+html 388 1434889 0 0
+jpg 2280 22785578 0 0
+js 2784 4597839 0 0
+otf 252 2404765 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -150,17 +150,19 @@ END_DOWNLOADS
 # OS ID - Hits
 BEGIN_OS 4
 macosx 627
-winxp 7952
+winxp 10915
 linux 56
 win7 153
 END_OS
 
 # Browser ID - Hits
-BEGIN_BROWSER 4
-chrome29.0.1547.62 210
+BEGIN_BROWSER 6
+msie8.0 70
 safari6.0.5 627
-chrome29.0.1547.66 7920
-firefox23.0 31
+chrome29.0.1547.62 210
+chrome29.0.1547.66 10458
+opera9.80 224
+firefox23.0 162
 END_BROWSER
 
 # Screen size - Hits
@@ -177,11 +179,11 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 270 270
+From0 380 380
 From1 0 0
 From2 0 0
 From3 0 0
-From4 207 8518
+From4 260 11371
 From5 0 0
 END_ORIGIN
 
@@ -212,8 +214,8 @@ END_ERRORS
 # URL with 404 errors - Hits - Last URL referer
 BEGIN_SIDER_404 6
 /img/ico-debtors.png 1 http://sevenstars.tribalddb.com.ua/
-/img/trash.png 1 http://sevenstars.tribalddb.com.ua/
 /img/in.png 1 http://sevenstars.tribalddb.com.ua/
+/img/trash.png 1 http://sevenstars.tribalddb.com.ua/
 /img/out.png 1 http://sevenstars.tribalddb.com.ua/
 /img/letters.png 1 http://sevenstars.tribalddb.com.ua/
 /img/lettters.png 1 http://sevenstars.tribalddb.com.ua/
@@ -223,10 +225,10 @@ END_SIDER_404
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 10 first Hits must be first (order not required for others)
 BEGIN_VISITOR 10
-62.216.44.10 413 7983 6971130 20130905153324
-46.149.89.231 24 320 12804136 20130905185801 20130905185801 /css/Barkentina.otf
+62.216.44.10 576 10946 9520082 20130906152902 20130906151600 /css/Barkentina.otf
+46.149.89.231 24 320 12804136 20130905185801
 46.149.91.140 16 181 6382614 20130903125046
-92.244.127.229 6 122 432773 20130905195437 20130905192220 /
+92.244.127.229 6 122 432773 20130905195437
 46.165.200.66 4 34 1417088 20130902155101
 93.127.54.197 4 54 1477273 20130902083516
 46.165.200.70 4 41 1662975 20130901094416
@@ -236,24 +238,26 @@ BEGIN_VISITOR 10
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 5
+BEGIN_DAY 6
 20130901 8 91 3525514 4
 20130902 18 195 6528351 8
 20130903 10 109 4171909 6
 20130904 12 144 5782982 6
 20130905 429 8249 13122179 10
+20130906 163 2963 2548952 2
 END_DAY
 
 # Session range - Number of visits
-BEGIN_SESSION 3
-1h+ 2
+BEGIN_SESSION 4
+1h+ 3
+0s-30s 30
 30s-2mn 1
-0s-30s 29
+30mn-1h 1
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 10 first Pages must be first (order not required for others)
 BEGIN_SIDER 2
-/ 276 951602 34 6
-/css/Barkentina.otf 201 2204367 0 26
+/ 388 1434889 36 7
+/css/Barkentina.otf 252 2404765 0 28
 END_SIDER
