@@ -22,12 +22,11 @@
                     <img src="/images/imgs/qwer.jpg" />
                         <div class="descr">
                             <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране.......
-                                <div class="clear"></div>
-                                <a href="#" class="detal">Подробнее</a>
+                                <br><a href="#" class="detal">Подробнее</a>
                             </p>
                         </div>
+                        <div class="total-summ"><span>грн. </span>3 000 000</div>
 
-                    <div class="total-summ"><span>грн. </span>3 000 000</div>
                     <div class="status">
                         <div>
                             <span>Собрано:</span>
@@ -59,48 +58,73 @@
 
         <table class="view-table mod">
         <tr>
-            <th>Имя инвестора</th>
-            <th>Ставка<br />заемщика (%)</th>
-            <th>Предложение<br />по ставке<br/>инвестора (%)</th>
-            <th>Предложение<br />по сумме<br/>инвестора (грн.)</th>
-            <th>Решение</th>
+            <th rowspan="2">Имя инвестора</th>
+            <th rowspan="2">Ставка<br />заемщика (%)</th>
+            <th rowspan="2">Предложение<br />по ставке<br/>инвестора (%)</th>
+            <th rowspan="2">Предложение<br />по сумме<br/>инвестора (грн.)</th>
+            <th colspan="2">Решение</th>
         </tr>
+        <tr>
+            <th class="narrow">отклонить</th>
+            <th>принять</th>
+         </tr>
         <tr>
             <td class="left">Сириус Блэк</td>
             <td>5</td>
             <td>3 000 000</td>
             <td>6 000 000</td>
-            <td>5 000 000</td>
+            <td colspan="2">
+                <div class="vote-btn no">отклонить</div>
+                <div class="vote-btn yes">принять</div>
+            </td>
         </tr>
         <tr>
             <td class="left">Септимус Малфой</td>
             <td>5</td>
             <td>3 000 000</td>
             <td>6 000 000</td>
-            <td>5 000 000</td>
+            <td colspan="2">
+                <div class="vote-btn no">отклонить</div>
+                <div class="vote-btn yes">принять</div>
+            </td>
         </tr>
         <tr>
             <td class="left">Лили Поттер</td>
             <td>52</td>
             <td>3 000 000</td>
             <td>6 000 000</td>
-            <td>5 000 000</td>
+            <td colspan="2">
+                <div class="vote-btn no">отклонить</div>
+                <div class="vote-btn yes">принять</div>
+            </td>
         </tr>
         <tr>
             <td class="left">Джеймс Поттер</td>
             <td>45</td>
             <td>3 000 000</td>
             <td>6 000 000</td>
-            <td>5 000 000</td>
+            <td colspan="2">
+                <div class="vote yes">принято</div>
+            </td>
         </tr>
         <tr>
             <td class="left">Септимус Малфой</td>
             <td>12</td>
             <td>1 000 000</td>
             <td>6 000 000</td>
-            <td>11 000 000</td>
+            <td colspan="2">
+                <div class="vote no">отклонено</div>
+            </td>
         </tr>
     </table>
+
+    <div class="paginator">
+        <a href="#" class="first"></a>
+        <a href="#" class="prev"></a>
+        <span>2/7</span>
+        <a href="#" class="next"></a>
+        <a href="#" class="last"></a>
+    </div>
     
 
 </div>
