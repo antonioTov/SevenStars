@@ -122,7 +122,12 @@ $(document).ready(function(){
         decor();
         return false;
     });
-    
+
+
+    $('.purse-btn.ballance').click(function(){
+        $(this).toggleClass('active');
+        $('#vaiants').toggle();;
+    });
 
 });
 

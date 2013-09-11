@@ -2727,3 +2727,198 @@ padding: 23px;
 {
     width: 85px;
 }
+.purse-cont
+{
+    overflow: hidden;
+    background: #e6e6e6;
+}
+.purse-cont .left-side
+{
+    background: #e6e6e6;
+    padding: 20px 0;
+    width: 380px;
+}
+.purse-cont .pl
+{
+    overflow: hidden;
+    margin: 9px 0;
+}
+.purse-cont .pl.white
+{
+    background: white;
+}
+.purse-cont .pl .purse-btn
+{
+    background: url("/img/purse-sprite.png") no-repeat;
+    height: 29px;
+    width: 275px;
+    cursor: pointer;
+    float: left;
+}
+.purse-cont .pl .purse-btn:hover
+{
+    opacity: 0.9;
+}
+.purse-cont .pl > span
+{
+    float: right;
+    font-size: 16px;
+    margin: 5px 10px 0 0;
+}
+.purse-cont .pl > span > span
+{
+    color: #cc368e;
+}
+.purse-cont .left-side ul
+{
+    display: none;
+}
+.purse-cont .left-side li
+{
+    margin: 10px 0 10px 100px;
+}
+.purse-cont .pl .purse-btn.ballance.active
+{
+    background-position: 0 -31px;
+}
+.purse-cont .pl .purse-btn.history
+{
+    background-position: 0 -62px;
+}
+.purse-cont .pl .purse-btn.add, .purse-cont .pl .purse-btn.remove
+{
+    background-position: 0 -93px;
+    margin: 0 0 0 80px;
+    width: 226px;
+}
+.purse-cont .pl .purse-btn.remove
+{
+    background-position: 0 -124px;
+}
+.purse-cont .right-side
+{
+    background: white;
+    min-height: 260px;
+    padding-bottom: 20px;
+}
+.purse-cont .right-side .purse-filter
+{
+    height: 30px;
+    margin: 30px 0 10px;
+}
+.purse-cont .right-side .purse-filter span
+{
+    padding: 5px 15px;
+    background: #48c4ee;
+    color: white;
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+.purse-cont .right-side .purse-filter form > div
+{
+    float: left;
+}
+.purse-cont .right-side .purse-filter form input[type='text']
+{
+    width: 100px;
+    font-size: 14px;
+    padding: 4px 5px;
+}
+.purse-cont .right-side .purse-filter form .rows
+{
+    margin: 0;
+}
+.purse-cont .right-side .purse-filter form .rows > div
+{
+    position: relative;
+}
+.purse-cont .right-side .purse-filter form .rows > label
+{
+    width: 40px;
+    text-align: right;
+    padding-right: 5px;
+
+}
+.purse-cont .right-side .purse-filter form .rows > div img
+{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+.purse-cont .right-side .purse-filter form div.select
+{
+    width: 165px  !important;
+    margin-left: 1px;
+}
+.purse-cont .right-side .purse-filter form div.select_txt
+{
+    font-size: 14px;
+    line-height: 26px;
+    color: inherit;
+    padding: 0px 5px;
+    width: 150px !important;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    background: none;
+    text-align: left;
+    height: 24px;
+}
+.purse-cont .right-side .purse-filter form div.select_btn
+{
+    background: url("/img/form/select-arrow.jpg") no-repeat;
+    top: 3px;
+    right: 7px;
+    height: 20px;
+    width: 20px;
+}
+.purse-cont .right-side .purse-filter form div.select_btn:hover
+{
+    opacity: 0.8;
+}
+.purse-cont .right-side .purse-filter form div.select .options
+{
+    width: 160px !important;
+    margin-top: 26px;
+}
+.purse-cont .right-side .purse-filter form div.select .options li
+{
+    width: 150px;
+    font-size: 14px;
+    padding: 4px 5px 0;
+}
+.purse-cont table
+{
+    width: 100%;
+    margin-left: 1px;
+}
+.purse-cont table th
+{
+    color: #000000;
+    padding: 6px 5px 6px 20px;
+}
+.purse-cont table td
+{
+    padding: 6px 5px 6px 20px;
+}
+.purse-cont table td a
+{
+    color: inherit;
+}
+.purse-cont table tr:nth-child(even)
+{
+    background: #e6e6e6;
+}
+.purse-cont table td.green
+ {
+     color: #00a408;
+ }
+.purse-cont table td.red
+{
+    color: #c11111;
+}
+.purse-cont .all-oper
+{
+    margin: 10px 20px;
+    display: block;
+}
