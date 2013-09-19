@@ -2922,3 +2922,201 @@ padding: 23px;
     margin: 10px 20px;
     display: block;
 }
+
+fieldset
+{
+    border: 1px solid #cfcfcf;
+}
+legend, .label
+{
+    margin: 0 20px;
+    color: #48c4ee;
+    font-size: 18px;
+}
+.ca-cont
+{
+    padding: 50px 70px;
+}
+.ca-cont form
+{
+    padding: 0 20px;
+}
+.ca-cont  .fields
+{
+    margin: 0;
+}
+.ca-cont .fields .rows label
+{
+    width: 170px;
+}
+.ca-cont .fields .rows label span
+{
+    color: #48c4ee;
+}
+.ca-cont .rows input[type='text']
+{
+    width: 70px;
+}
+.ca-cont .fields.blue
+{
+    background: #48c4ee;
+    width: 115px;
+    padding: 10px 14px;
+    color: white;
+    font-family: Barkentina, Bookman old style;
+    font-size: 14px;
+    text-align: center;
+    margin: -10px -20px 0 0;
+    float: right;
+    height: 110px;
+    border: 1px solid white;
+}
+.ca-cont .fields.blue input[type='text']
+{
+    font-size: 16px;
+    color: inherit;
+    padding: 2px 5px;
+    width: 80px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    margin: 5px 0;
+    color: #757575;
+}
+.ca-cont .fields.blue input[type='submit']
+{
+    padding: 5px;
+    width: 100px;
+    margin: 0;
+    border-bottom: 3px solid #1F9BB2;
+}
+.ca-cont form.add
+{
+    padding: 0;
+}
+.rq
+{
+    margin: 30px 0;
+    overflow: hidden;
+}
+.label
+{
+    float: left;
+}
+.input-text
+{
+    font-size: 16px;
+    color: inherit;
+    padding: 2px 5px;
+    width: 435px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+}
+.rq .ww
+{
+    overflow: hidden;
+}
+.rq .ww p
+{
+    color: #C4C4C4;
+}
+.rq-cont label
+{
+    font-size: 15px;
+    width: 148px;
+    display: block;
+    float: left;
+    margin: 4px 0 0 0 ;
+}
+.rq-cont > div
+{
+    padding: 15px 0 0 50px;
+    overflow: hidden;
+}
+.rq-cont .rq-note
+{
+    color: #48c4ee;;
+}
+.rq-cont input[type='file']
+{
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: relative;
+    z-index: 9;
+    width: 630px;
+    height: 25px;
+    cursor: pointer;
+}
+.rq-cont .input-file
+{
+    font-size: 16px;
+    color: inherit;
+    padding: 2px 5px;
+    width: 622px;
+    border: 1px solid #cfcfcf;
+    height: 19px;
+    position: absolute;
+    top: 0;
+}
+.rq-cont .rq-row
+{
+    float: left;
+    width: 630px;
+    position: relative;
+}
+.rq-cont .input-text
+{
+    width: 622px;;
+}
+.rq-cont textarea, .textarea-wrapper
+{
+    font-size: 16px;
+    color: inherit;
+    padding: 2px 0 2px 5px;
+    width: 627px;
+    height: 170px;
+    border: 1px solid #cfcfcf;
+    background:transparent;
+    overflow:hidden;
+}
+.rq-cont textarea
+{
+    border: 0;
+    outline: none;
+    resize:none;
+    width: 590px;
+    height: 160px;
+}
+.rq-cont textarea.short
+{
+    height: 100px;
+}
+.rq-cont .mCSB_scrollTools
+{
+    box-sizing:border-box;
+}
+.hiddendiv
+{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    visibility: hidden;
+    white-space: pre-wrap;
+    width: 590px;
+    word-wrap: break-word;
+}
+.rq-cont .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar
+{
+    background: #9bd241;
+}
+input[type='button'].save
+{
+    background: #25b6dd;
+    margin: 0;
+    padding: 7px;
+    cursor: pointer;
+}
+.rq-note.mod
+{
+    color: #48c4ee;
+    margin-left: 20px;
+}

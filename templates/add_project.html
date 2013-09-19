@@ -1,0 +1,150 @@
+<div class="block_3">
+    <div class="reg_cont">
+        <div class="form-header">
+            <div style="float: left;">
+                <h5>Создание проекта</h5>
+                <div class="alert">Высокий кредитный рейтинг поможет вам получать более интересные предложения от инвесторов. Для этого максимально подробно заполните все поля. Чем больше информации вы предоставите, тем выше будет ваш кредитный рейтинг</div>
+            </div>
+            <img src="/img/ico-pencil.png" width="100" height="100" />
+        </div>
+        <div class="clear"></div>
+        <div class="ca-cont">
+            <fieldset>
+                <legend>Калькулятор проекта:</legend>
+                <form>
+                    <div class="fields">
+                        <div class="rows">
+                            <label>Сумма кредита <span>(грн)</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="rows">
+                            <label>Срок кредита <span>(мес.)</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="fields right">
+                        <div class="rows">
+                            <label>Отсрочка <span>(мес.)</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="rows">
+                            <label>Процентная ставка <span>(%)</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="fields right blue">
+                        <span>Ежемесячная сумма платежа в месяц (грн.)</span>
+                        <input type="text">
+                        <input type="submit" value="Рассчитать">
+                    </div>
+                </form>
+            </fieldset>
+
+            <form action="" class="add">
+                <div class="rq">
+                    <div class="label">Название проекта:</div>
+                    <div class="ww">
+                        <input type="text" class="input-text">
+                        <p>Максимум 50 символов</p>
+                    </div>
+                </div>
+                <div class="rq">
+                    <div class="label">Информация о проекте:</div>
+                    <div class="clear"></div>
+                    <div class="rq-cont">
+                        <div>
+                            <label>Загрузить фото:</label>
+                            <div class="rq-row">
+                                <input type="file" onchange="$('#photo-file').html($(this).val());"/>
+                                <div class="input-file" id="photo-file"></div>
+                                <div class="clear"></div>
+                                <div class="rq-note">вес фотеографии не больше 1 мб, рамер фотографии не больше 1000 на 1000 пикс.</div>
+                                <div class="error">превышен лимит загружаемого файла</div>
+                            </div>
+                        </div>
+                        <div>
+                            <label>Загрузить вспомогательные материалы:</label>
+                            <div class="rq-row">
+                                <input type="file" onchange="$('#support-file').html($(this).val());"/>
+                                <div class="input-file" id="support-file"></div>
+                                <div class="clear"></div>
+                                <div class="rq-note">.pdf, .doc, exl, jpg, avi, mpg, mp3 (вес до 2 МБ)</div>
+                                <div class="error">превышен лимит загружаемого файла</div>
+                            </div>
+                        </div>
+                        <div>
+                            <label>Загрузить видео:</label>
+                            <div class="rq-row">
+                                <input type="text" class="input-text"/>
+                                <div class="clear"></div>
+                                <div class="rq-note">скопируйте и вставьте  ссылку из Youtube </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label>Краткое описание проекта:</label>
+                            <div class="rq-row">
+                                <textarea class="ta-scroll short" placeholder="Коротко опишите, в чем суть вашего проекта. Какова его цель? В какие сроки вы планируете реализовать проект?"  ></textarea>
+                                <div class="clear"></div>
+                                <div class="rq-note">Текст будет видно на этапе списка проектов и на внутренней странице </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label>Полное описание проекта:</label>
+                            <div class="rq-row">
+                                <textarea class="ta-scroll"   placeholder="Опишите ваш проект максимально подробно. В чем заключается суть проекта? Какая сумма необходима на его реализацию? В какие сроки вы готовы вернуть заем? Из каких источников вы планируете получить прибыль для возврата? На что именно пойдут средства инвестора? В какие сроки будет реализован проект?  Кроме того, вы можете разместить в описании ссылки на личные блоги/профили в социальных сетях. Если у вас есть рекомендации от деловых партнеров или инвесторов, вы также можете это указать.
+                                "></textarea>
+                            </div>
+                        </div>
+                        <div class="btns-cont">
+                            <input type="button" class="save" value="Сохранить*">
+                            <input type="submit" value="Отправить">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="rq-note mod">*данные буду сохранены.  Вы сможете вернуться к созданию проекта позже</div>
+    </div>
+
+</div>
+
+<div class="block_4 mod">
+    <div class="img_cont">
+        <ul>
+            <li><span>Открытие<br>Фреш-бара</span>        <a href="#"><img src="/images/pics/1.jpg" width="242" height="290" alt=""/></a></li>
+            <li><span>Ремонт спальни</span>             <a href="#"><img src="/images/pics/2.jpg" width="242" height="290" alt=""/></a></li>
+            <li><span>Семейный отдых<br>в Тайланде</span>  <a href="#"><img src="/images/pics/3.jpg" width="242" height="290" alt=""/></a></li>
+            <li><span>Семейный отдых<br>в Египте</span>    <a href="#"><img src="/images/pics/4.jpg" width="242" height="290" alt=""/></a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="block_4">
+    <h5>Пресса о нас</h5>
+    <div class="news_block">
+        <div class="news_block_left">
+            <img src="/img/news_h1.jpg"  width="190" height="32" alt=""/>
+            <p>France was accused of jeopardising one of David Cameron’s G8 priorities today by limiting the scope of trans-Atlantic trade talks. The head of the European Commission hit out at President Hollande for insisting on special protections for the French film industry. Jose Manuel…</p>
+            <a href="#"class="detal">подробнее<img src="/img/a.detal.png" width="8" height="10"></a>
+        </div>
+        <div class="news_block_right">
+            <img src="/img/news_h2.jpg"  width="51" height="39" alt=""/>
+            <p>France was accused of jeopardising one of David Cameron’s G8 priorities today by limiting the scope of trans-Atlantic trade talks. The head of the European Commission hit out at President Hollande for insisting on special protections for the French film industry. Jose Manuel…</p>
+            <a href="#" class="detal">подробне<img src="/img/a.detal.png" width="8" height="10"></a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    <!--
+    $(document).ready(function(){
+        $('.decor_b1,.decor_b2').hide();
+        $('.block_3').ready(function(){
+            var pos = $('.block_3').height()+1;
+            $('.decor_b4').css({top:125,height: pos});
+            $('.decor_b3').css({top:125+pos, left:0, width:'100%', height: $(document).height()-(125+pos)});
+        });
+
+
+    });
+    -->
+</script>
