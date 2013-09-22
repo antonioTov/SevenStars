@@ -78,7 +78,7 @@
                             <li><a href="#">Контакты</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Вход/Регистрация</a></li>
+                    <li><a href="#" onclick="show_login(); return false;">Вход/Регистрация</a></li>
                 </ul>
                 <div class="clear"></div>
                 <div class="btn_cont">
@@ -98,5 +98,31 @@
         <div>Все права защищены. ЗАО "Семь звезд" &copy; 2013</div>
         <a href="http://tribalddb.com.ua" class="tribal"><img src="/img/tribal_logo.png" width="75" height="35"></a>
     </div>
+    <div class="login-popup">
+        <form action="">
+            <h6>Вход в систему</h6>
+            <div>
+                <label>Логин</label>
+                <input type="text"/>
+            </div>
+            <div>
+                <label>Пароль</label>
+                <input type="password"/>
+            </div>
+            <a href="#" class="f">Забыли пароль?</a>
+            <div class="clear"></div>
+            <div>
+                <input type="checkbox"/>
+                <span>Оставаться в системе</span>
+            </div>
+            <div class="reg">
+                <a href="#">Регистрация</a> на сайте
+            </div>
+            <div>
+                <input type="submit" value="Войти"/>
+            </div>
+        </form>
+    </div>
+    <div id="fade"></div>
 </body>
 </html>
