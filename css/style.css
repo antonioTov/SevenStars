@@ -2851,7 +2851,7 @@ padding: 23px;
     width: 165px  !important;
     margin-left: 1px;
 }
-.purse-cont .right-side .purse-filter form div.select_txt
+.purse-cont .right-side .purse-filter form div.select_txt, .rows div.select_txt
 {
     font-size: 14px;
     line-height: 26px;
@@ -2864,7 +2864,7 @@ padding: 23px;
     text-align: left;
     height: 24px;
 }
-.purse-cont .right-side .purse-filter form div.select_btn
+.purse-cont .right-side .purse-filter form div.select_btn, .rows div.select_btn
 {
     background: url("/img/form/select-arrow.jpg") no-repeat;
     top: 3px;
@@ -2876,12 +2876,12 @@ padding: 23px;
 {
     opacity: 0.8;
 }
-.purse-cont .right-side .purse-filter form div.select .options
+.purse-cont .right-side .purse-filter form div.select .options, .rows  div.select .options
 {
     width: 160px !important;
     margin-top: 26px;
 }
-.purse-cont .right-side .purse-filter form div.select .options li
+.purse-cont .right-side .purse-filter form div.select .options li, .rows  div.select .options li
 {
     width: 150px;
     font-size: 14px;
@@ -3123,4 +3123,274 @@ input[type='button'].save
 {
     color: #48c4ee;
     margin-left: 20px;
+}
+.static
+{
+    padding: 20px 40px;
+    min-height: 200px;
+}
+.static h5
+{
+    margin-bottom: 20px;
+}
+.text p
+{
+    color: #585858;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 0;
+}
+h5.center
+{
+    text-align: center;
+    font-size: 24px;
+}
+.text ul
+{
+    list-style: disc;
+    color: #05aee8;
+    margin: 20px 18px;
+}
+.text li span
+{
+    color: #585858;
+    font-size: 14px;
+}
+.answers
+{
+    margin: 50px 0;
+}
+.answers .ans-item
+{
+    border: 1px solid #a7e3f7;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.answers .ans-header
+{
+    font-size: 14px;
+    float: left;
+    color: #585858;
+}
+.answers .to-top
+{
+    float: right;
+    text-transform: uppercase;
+    color: #48c4ee;
+    cursor: pointer;
+}
+.answers h4
+{
+    margin: 30px 0 0 0;
+}
+.artic-item
+{
+    overflow: hidden;
+    margin: 20px 0;
+}
+.artic-item img
+{
+    float: left;
+    margin-right: 10px;
+}
+.artic-item h4
+{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.artic-item a.next
+{
+    background: #a6ce39;
+    color: white;
+    padding: 3px 30px;
+    text-decoration: none;
+}
+.artic-item a.next:hover
+{
+    text-decoration: underline;
+}
+.agent-list
+{
+    overflow: hidden;
+}
+.agent-list.mod .agent-item
+{
+    width: 200px;
+    float: left;
+    margin: 10px 0 10px 19px;
+}
+.agent-list.mod .agent-name
+{
+    background: #48c4ee;
+    color: white;
+    padding: 8px 3px;
+    font-size: 14px;
+    text-align: center;
+}
+.agent-list.mod .agent-item img
+{
+    vertical-align: top;
+}
+.agent-list.mod .agent-data
+{
+    padding: 10px 10px 0 10px;
+    border: 1px solid #ACACAC;
+    border-top: 0;
+}
+.agent-list.mod .agent-data span
+{
+    color: #000000;
+    font-weight: bold;
+}
+.agent-list.mod .agent-item .agent-data .agent-about
+{
+    margin-top: 10px;
+}
+.agent-list.mod .agent-item .agent-data a.agent-detal
+{
+    background: #6d6e71;
+    padding: 5px 0 7px;
+    display: block;
+    margin: 6px -11px -6px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.agent-list.mod .agent-item .agent-data a.agent-detal:hover
+{
+    text-decoration: underline;
+}
+.iframe-cont
+{
+    background: #def1f8;
+    text-align: center;
+    margin: 0 -40px;
+}
+.iframe-cont iframe
+{
+    vertical-align: top;
+}
+.icon_cont.mod .icon
+{
+    margin: 40px 0 40px 52px;
+    width: 160px;
+}
+.icon_cont.mod .icon .img
+{
+    background: url("/img/icons-grey.png");
+}
+.icon_cont.mod .icon .img.proj
+{
+    background-position: 0px -150px;
+}
+.icon_cont.mod .icon .img.risc
+{
+    background-position: 0px -300px;
+}
+.icon_cont.mod .icon .img.info
+{
+    background-position: 0px -450px;
+}
+.icon_cont.mod .icon h5
+{
+    margin: 5px 0 0 0;
+}
+
+.login-popup
+{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 999999;
+    background: #ffffff;
+    width: 360px;
+    margin-left: -200px;
+    margin-top: -200px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 19px 2px #989DB6;
+    display: none;
+}
+.login-popup h6
+{
+    color: #444444;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.login-popup input[type='text'], .login-popup input[type='password']
+{
+    font-size: 24px;
+    padding: 3px;
+    width: 97%;
+    border-radius: 3px;
+    border: 1px solid #DDD;
+    box-shadow: 0 0 0px 4px #f7f9fa;
+    margin: 7px 0;
+    outline-color: rgb(168, 218, 216);
+}
+.login-popup label
+{
+    display: block;
+    padding-left: 20px;
+}
+.login-popup form > div
+{
+    margin: 10px 0 0;
+}
+.login-popup form a.f
+{
+    float: right;
+    color: #444444;
+}
+.login-popup form > div span
+{
+    color: #444444;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.login-popup .reg
+{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    color: #444444;
+}
+.login-popup input[type='submit']
+{
+    background: #7fcde8;
+    display: block;
+    width: 400px;
+    margin: 20px -20px -20px;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#fade
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #A3C9E2;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    display: none;
+}
+.rows span.r
+{
+    color: #48c4ee;
+    font-size: 14px;
+}
+.rows div.select_txt, .rows div.select .options li
+{
+    width: 170px !important;
+}
+.rows div.select .options
+{
+    width: 180px !important;
 }

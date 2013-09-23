@@ -69,15 +69,67 @@
                     </div>
                 </div>
                 <div class="rows">
+                    <span class="r">Адрес прописки:</span>
+                </div>
+                <div class="rows">
                     <label>Страна:</label>
                     <div>
-                        <input type="text">
+                        <select name="">
+                            <option value="">Украина</option>
+                            <option value="">Украина</option>
+                            <option value="">Украина</option>
+                        </select>
                     </div>
                 </div>
                 <div class="rows">
                     <label>Город:</label>
                     <div>
+                        <select name="">
+                            <option value="">Киев</option>
+                            <option value="">Киев</option>
+                            <option value="">Киев</option>
+                        </select>
+                    </div>
+                </div>
+                <div  class="rows date">
+                    <label class="bd">Индекс:</label>
+                    <div>
+                        <input type="text" class="bd">
+                    </div>
+                </div>
+                <div class="rows">
+                    <label>Улица:</label>
+                    <div>
                         <input type="text">
+                    </div>
+                </div>
+                <div  class="rows">
+                    <label>№ дома:</label>
+                    <input type="text" class="nd">
+                    <label class="nd">Квартира:</label>
+                    <input type="text" class="nd">
+                </div>
+                <div class="rows">
+                    <span class="r">Адрес проживания:</span>
+                </div>
+                <div class="rows">
+                    <label>Страна:</label>
+                    <div>
+                        <select name="">
+                            <option value="">Украина</option>
+                            <option value="">Украина</option>
+                            <option value="">Украина</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="rows">
+                    <label>Город:</label>
+                    <div>
+                        <select name="">
+                            <option value="">Киев</option>
+                            <option value="">Киев</option>
+                            <option value="">Киев</option>
+                        </select>
                     </div>
                 </div>
                 <div  class="rows date">
@@ -263,11 +315,14 @@
     </div>
 </div>
 <script type="text/javascript">
-<!--
-$(document).ready(function(){
-    $('.decor_b1,.decor_b2').hide();
-	$('.decor_b4').css({top:125,height: 1007});
-    $('.decor_b3').css({top:606, left:0, width:'100%', height: $(document).height()-600});
-}); 	
--->
+    <!--
+    $(document).ready(function(){
+        $('.decor_b1,.decor_b2').hide();
+        $('.block_3').ready(function(){
+            var pos = $('.block_3').height()+1;
+            $('.decor_b4').css({top:125,height: pos});
+            $('.decor_b3').css({top:125+pos, left:0, width:'100%', height: $(document).height()-(125+pos)});
+        });
+    });
+    -->
 </script>

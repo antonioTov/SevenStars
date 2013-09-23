@@ -26,7 +26,7 @@ $(document).ready(function(){
     //hover menu
     $('.menu > li').hover(
 		function(){$(this).find('ul').stop(true,true).slideDown(100);}, 
-		function(){$(this).find('ul').stop(true,true).slideUp(100);});
+		function(){$(this).find('ul').hide();});
 
     
     //current menu item
@@ -127,6 +127,10 @@ $(document).ready(function(){
     $('.purse-btn.ballance').click(function(){
         $(this).toggleClass('active');
         $('#vaiants').toggle();;
+    });
+
+    $('.to-top').click(function(){
+       $('body,html').animate({scrollTop: 0}, 400);
     });
 
 });
@@ -288,4 +292,13 @@ function textarea_scroll_init()
         }
         return pos;
     }
+}
+
+function show_login()
+{
+    $('.login-popup, #fade').fadeIn(200);
+
+    $('#fade').click(function(){
+        $('#fade, .login-popup').fadeOut(200);
+    });
 }
