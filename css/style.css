@@ -3420,3 +3420,7 @@ h5.center
 {
     background: url("/img/icons-blue.png");
 }
+.rows div.select
+{
+    width: 181px !important;
+}
