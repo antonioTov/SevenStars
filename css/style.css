@@ -438,10 +438,12 @@ a
     margin: 0 auto;
     cursor: pointer;
     opacity: 0.9;
+    filter: alpha(opacity=90);
 }
 .block_1 .order-btn:hover
 {
     opacity: 1;
+    filter: alpha(opacity=100);
 }
 .block_1 .order-btn-cont
 {
@@ -536,6 +538,7 @@ a
 
     text-align: center;
     opacity: 0.9;
+    filter: alpha(opacity=90);
     margin: 30px 15px;
     color: white;
     
@@ -630,6 +633,7 @@ a
     left: 0;
     display: none;
     opacity: 0.7;
+    filter: alpha(opacity=70);
     cursor: pointer;
 }
 .slider_index_block .next
@@ -640,6 +644,7 @@ a
 .slider_index_block .prev:hover, .slider_index_block .next:hover
 {
     opacity: 1;
+    filter: alpha(opacity=100);
 }
 #slider_index
 {
@@ -1035,10 +1040,12 @@ div.fadenav a.current
     height: 23px;
     margin: 0 3px 0 0;
     opacity: 0.7;
+    filter: alpha(opacity=70);
 }
 .ask_nav > div:hover
 {
     opacity: 1;
+    filter: alpha(opacity=100);
 }
 .ask_nav .ask_next
 {
@@ -1135,6 +1142,7 @@ div.fadenav a.current
 .img_cont li:hover
 {
     opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 .img_cont span
 {
@@ -1348,6 +1356,7 @@ input[type='submit']
 input[type='submit']:hover, input[type='button']:hover
 {
     opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 input[type='button']
 {
@@ -1728,6 +1737,7 @@ a.save:hover
 .mCustomScrollBox>.mCSB_scrollTools 
 {
     opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 .mCustomScrollBox .mCSB_scrollTools 
 {
@@ -1745,10 +1755,12 @@ a.save:hover
     right: 0;
     height: auto;
     opacity: 0.6;
+    filter: alpha(opacity=60);
 }
 .mCSB_scrollTools .mCSB_draggerContainer:hover
 {
     opacity: 1;
+    filter: alpha(opacity=100);
 }
 .mCSB_scrollTools .mCSB_dragger 
 {
@@ -2018,6 +2030,7 @@ a.save:hover
 .paginator a:hover
 {
     opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 .paginator a.first, .paginator a.last
 {
@@ -2347,10 +2360,12 @@ padding: 23px;
     width: 138px;
     display: block;
     opacity: 0.4;
+    filter: alpha(opacity=40);
 }
 .cab-info-graph a.active
 {
     opacity: 1;
+    filter: alpha(opacity=100);
 }
 .cab-info-graph a.ig-2
 {
@@ -2413,6 +2428,7 @@ padding: 23px;
 .view-cont a.edit:hover
 {
     opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 .view-cont .view-table 
 {
@@ -2462,10 +2478,12 @@ padding: 23px;
 .msg-cont .msg-menu a
 {
     opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 .msg-cont .msg-menu a:hover, .msg-cont .msg-menu a.active
 {
     opacity: 1;
+    filter: alpha(opacity=100);
 }
 .msg-cont > table
 {
@@ -2705,6 +2723,7 @@ padding: 23px;
 .view-table.mod .vote-btn:hover
 {
     opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 .view-table.mod .vote-btn.no
 {
@@ -2758,6 +2777,7 @@ padding: 23px;
 .purse-cont .pl .purse-btn:hover
 {
     opacity: 0.9;
+    filter: alpha(opacity=90);
 }
 .purse-cont .pl > span
 {
@@ -2875,6 +2895,7 @@ padding: 23px;
 .purse-cont .right-side .purse-filter form div.select_btn:hover
 {
     opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 .purse-cont .right-side .purse-filter form div.select .options, .rows  div.select .options
 {
@@ -3379,6 +3400,7 @@ h5.center
     top: 0;
     left: 0;
     opacity: 0.3;
+    filter: Alpha(Opacity=30);
     display: none;
 }
 .rows span.r
@@ -3393,4 +3415,8 @@ h5.center
 .rows div.select .options
 {
     width: 180px !important;
+}
+.icon_cont.mod a:hover .img
+{
+    background: url("/img/icons-blue.png");
 }
