@@ -2871,7 +2871,7 @@ padding: 23px;
     width: 165px  !important;
     margin-left: 1px;
 }
-.purse-cont .right-side .purse-filter form div.select_txt, .rows div.select_txt
+.purse-cont .right-side .purse-filter form div.select_txt, .rows div.select_txt, .cat-select div.select_txt
 {
     font-size: 14px;
     line-height: 26px;
@@ -2884,7 +2884,7 @@ padding: 23px;
     text-align: left;
     height: 24px;
 }
-.purse-cont .right-side .purse-filter form div.select_btn, .rows div.select_btn
+.purse-cont .right-side .purse-filter form div.select_btn, .rows div.select_btn, .cat-select div.select_btn
 {
     background: url("/img/form/select-arrow.jpg") no-repeat;
     top: 3px;
@@ -2897,16 +2897,16 @@ padding: 23px;
     opacity: 0.8;
     filter: alpha(opacity=80);
 }
-.purse-cont .right-side .purse-filter form div.select .options, .rows  div.select .options
+.purse-cont .right-side .purse-filter form div.select .options, .rows  div.select .options,  .cat-select div.select .options
 {
     width: 160px !important;
     margin-top: 26px;
 }
-.purse-cont .right-side .purse-filter form div.select .options li, .rows  div.select .options li
+.purse-cont .right-side .purse-filter form div.select .options li, .rows  div.select .options li, .cat-select div.select .options li
 {
     width: 150px;
     font-size: 14px;
-    padding: 4px 5px 0;
+    padding: 3px 5px 0;
 }
 .purse-cont table
 {
@@ -3184,9 +3184,12 @@ h5.center
 .answers .ans-item
 {
     border: 1px solid #a7e3f7;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
-    margin: 15px 0;
+    margin: 8px 0;
+    color: #585858;
+    font-size: 14px;
+    line-height: 18px;
 }
 .answers .ans-header
 {
@@ -3408,11 +3411,11 @@ h5.center
     color: #48c4ee;
     font-size: 14px;
 }
-.rows div.select_txt, .rows div.select .options li
+.rows div.select_txt, .rows div.select .options li, .cat-select div.select_txt, .cat-select div.select .options li
 {
     width: 170px !important;
 }
-.rows div.select .options
+.rows div.select .options,  .cat-select div.select .options
 {
     width: 180px !important;
 }
@@ -3420,7 +3423,174 @@ h5.center
 {
     background: url("/img/icons-blue.png");
 }
-.rows div.select
+.rows div.select, .cat-select div.select
 {
     width: 181px !important;
+}
+.seo_text p
+{
+    margin: 5px 0;
+}
+.text.scroll
+{
+    height: 800px;
+    padding: 20px;
+    padding-right: 10px;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+}
+.text.scroll .mCSB_container
+{
+    margin-right: 20px;
+}
+.text.scroll .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar
+{
+    background: #9bd241;
+}
+.search-row
+{
+    overflow: hidden;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.search-row span
+{
+    float: left;
+    display: block;
+    margin: 9px 10px 0 0;
+}
+.search-row > div
+{
+    float: left;
+    background: #e9e9e9;
+    padding: 3px;
+}
+.search-row input[type='text']
+{
+    border: 0;
+    font-size: 18px;
+    padding: 3px 5px;
+    outline: none;
+}
+.search-row input[type='submit']
+{
+    background: url(/img/ico-search.png) no-repeat center;
+    text-indent: -3000px;
+    width: 27px;
+    padding: 0;
+    margin-left: 2px;
+}
+a.join
+{
+    position: absolute;
+    right: 0;
+    top: 243px;
+}
+a.join:hover
+{
+    opacity: 0.8;
+    filter: Alpha(Opacity=80);
+}
+.cat-select
+{
+    overflow: hidden;
+}
+.cat-select span
+{
+    display: block;
+    float: left;
+    margin: 4px 10px 0 0;
+    font-size: 14px;
+}
+.cat-select > div
+{
+    float: left;
+}
+.effectContainer.mod
+{
+    width: 920px;
+}
+.info_graph .inv.i1
+{
+    background-position: -10px -300px;
+}
+.info_graph .inv.i2
+{
+    background-position: -130px -300px;
+}
+.info_graph .inv.i3
+{
+    background-position: -250px -300px;
+}
+.info_graph .inv.i4
+{
+    background-position: -370px -300px;
+    margin-left: 210px;
+}
+.info_graph .inv.i5 {
+    background-position: -490px -300px;
+}
+.icon_cont.inv .icon .img
+{
+    background: url("/img/icons2-grey.png") no-repeat;
+}
+.icon_cont.inv a:hover .img
+{
+    background: url("/img/icons2-blue.png") no-repeat;
+}
+.icon_cont.inv .icon {
+    margin: 40px 15px;
+}
+.icon_cont.inv .icon .img.proj
+{
+    background-position: 0px -150px;
+}
+.icon_cont.inv .icon .img.risc
+{
+    background-position: 0px -300px;
+}
+.icon_cont.inv .icon .img.info
+{
+    background-position: 0px -450px;
+}
+.icon_cont.inv .icon h5, .icon_cont.deb .icon h5
+{
+    margin: 5px 0 0 0;
+}
+.icon_cont.deb .icon .img
+{
+    background: url("/img/icons3-grey.png") no-repeat;
+}
+.icon_cont.deb a:hover .img
+{
+    background: url("/img/icons3-blue.png") no-repeat;
+}
+.icon_cont.deb .icon {
+    margin: 40px 4px 0 0;
+    width: 150px;
+}
+.icon_cont.deb .icon .img.proj
+{
+    background-position: 0px -150px;
+}
+.icon_cont.deb .icon .img.risc
+{
+    background-position: 0px -300px;
+}
+.icon_cont.deb .icon .img.info
+{
+    background-position: 0px -450px;
+}
+.icon_cont.deb .icon .img.sbor
+{
+    background-position: 0px -600px;
+}
+.icon_cont.deb .icon .img.zaym
+{
+    background-position: 0px -750px;
+}
+.icon_cont.deb
+{
+    margin: 0 -20px;
 }
