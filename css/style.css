@@ -3516,6 +3516,7 @@ a.join:hover
 .info_graph .inv.i1
 {
     background-position: -10px -300px;
+    margin-left: 210px;
 }
 .info_graph .inv.i2
 {
@@ -3528,7 +3529,6 @@ a.join:hover
 .info_graph .inv.i4
 {
     background-position: -370px -300px;
-    margin-left: 210px;
 }
 .info_graph .inv.i5 {
     background-position: -490px -300px;
