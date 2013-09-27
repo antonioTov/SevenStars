@@ -3190,6 +3190,7 @@ h5.center
     color: #585858;
     font-size: 14px;
     line-height: 18px;
+    display: none;
 }
 .answers .ans-header
 {
@@ -3206,7 +3207,8 @@ h5.center
 }
 .answers h4
 {
-    margin: 30px 0 0 0;
+    margin: 20px 0 0 0;
+    cursor: pointer;
 }
 .artic-item
 {
